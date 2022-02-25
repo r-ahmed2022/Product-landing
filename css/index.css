@@ -179,15 +179,8 @@ img
   text-align:center;
   background-color:#8E8EF0;
 }
-@media screen and (max-width:320px)
-{
-   #Features{
-     grid-column:1 / -1;
-   }
-   #h-works{
-     grid-column:1 / -1
-   }
-   #Pricing{
-     grid-column:1 / -1
-   }
+@media screen and (max-width: 600px) {
+  #features , #h-works , #pricing {
+      width: 20%;
+  }
 }
